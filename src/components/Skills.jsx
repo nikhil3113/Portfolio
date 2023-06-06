@@ -3,9 +3,10 @@ import HTML from '../assets/html.png'
 import CSS from '../assets/css.png'
 import js from '../assets/js.png'
 import react from '../assets/react.png'
-import python from '../assets/python.png'
+// import python from '../assets/python.png'
 import github from '../assets/github.png'
 import bootstrap from '../assets/bootstrap.png'
+// import Java from '../assets/java2.png'
 
 const Skills = () => {
   return (
@@ -38,8 +39,8 @@ const Skills = () => {
                     <p className='my-4'>Bootstrap</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={python} alt="html" />
-                    <p className='my-4'>Python</p>
+                    <img className='w-20 mx-auto' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="html" />
+                    <p className='my-4'>Java</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={github} alt="html" />
