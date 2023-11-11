@@ -4,6 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
+import resume from '../assets/project/Resume.pdf'
 
 //bg-transparent backdrop-blur-sm
 // bg-[#0a192f]
@@ -165,7 +166,8 @@ const Navbar = () => {
           <li className="w-[60px] h-[60px] flex justify-between items-center hover:bg-gradient-to-r from-[#565f91] ">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/17Yrd0p9z4De_YdciluMg0K0q5LFh66s_/view?usp=sharing"
+              download="Nikhil-Resume"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
             >
