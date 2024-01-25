@@ -1,10 +1,10 @@
 import React from 'react'
 import game from '../assets/project/game.png'
 import weather from '../assets/project/weather.png'
-import movie from '../assets/project/movieApp.png'
 import blog from '../assets/project/blog.png'
 import gameApp from '../assets/project/gameApp.png'
 import travel from '../assets/project/travel.png'
+import pixato from '../assets/project/pixato.png'
 
 const Work = () => {
   return (
@@ -103,17 +103,17 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div style={{backgroundImage: `url(${movie})`}}
+                <div style={{backgroundImage: `url(${pixato})`}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white traking-wider'>
-                            Find My Movie
+                            Pixato
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://movie-tmdb-search.netlify.app/" target='_blank'  rel="noopener noreferrer">
+                            <a href="https://pixato.netlify.app/" target='_blank'  rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/nikhil3113/movieFinder" target='_blank'  rel="noopener noreferrer">
+                            <a href="https://github.com/nikhil3113/pixato" target='_blank'  rel="noopener noreferrer">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
