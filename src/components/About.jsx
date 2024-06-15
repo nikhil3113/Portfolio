@@ -19,7 +19,7 @@ const About = () => {
               </p>
             </div>
             <div>
-                <p>I’m in Final year pursuing B.E. in Information technology from University of Mumbai. I'm Excited to learn new things and try to implement in real world, meet inclined people and learn new things from them.</p>
+                <p>B.E Graduate in Information technology from University of Mumbai. I'm Excited to learn new things and try to implement in real world, meet inclined people and learn new things from them.</p>
             </div>
           </div>
         </div>
